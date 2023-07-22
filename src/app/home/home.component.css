@@ -1,0 +1,20 @@
+    main {
+        padding: 20px;
+    }
+
+    section {
+        height: 100vh;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    p {
+       margin-bottom: 15px;
+    }

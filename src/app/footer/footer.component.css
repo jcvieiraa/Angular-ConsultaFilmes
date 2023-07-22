@@ -1,0 +1,11 @@
+footer {
+    background-color: hsl(0, 74%, 43%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
