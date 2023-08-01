@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './category.component.html',
   styleUrls: ['./category.component.css']
 })
-export class CategoryComponent {
 
+export class CategoryComponent {
+  categories: string[] = ['Acao', 'Comedia', 'Terror/Suspense', 'Adulto', 'Anime'];
+  selectedCategory: string | undefined;
 }
