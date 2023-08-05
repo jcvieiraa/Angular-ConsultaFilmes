@@ -19,19 +19,27 @@ nav ul li a:hover {
 
 .main {
   padding: 20px;
+  height: 78vh;
 }
 
-.section {
-  height: 100vh;
+section {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   font-size: 36px;
   margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
 }
 
 .movies-grid {
@@ -63,4 +71,25 @@ max-height: 200px;
 object-fit: cover;
 border-radius: 5px;
 margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+nav ul li {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.movies-grid {
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.movie img {
+  max-height: 150px;
+}
+
+.movie h3 {
+  font-size: 16px;
+}
 }
