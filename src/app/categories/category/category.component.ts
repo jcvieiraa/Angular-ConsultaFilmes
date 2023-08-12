@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Categoria } from 'src/models/models';
 
 @Component({
   selector: 'cin-category',
   templateUrl: './category.component.html',
   styleUrls: ['./category.component.css']
 })
-
 export class CategoryComponent {
-  categories: string[] = ['Acao', 'Comedia', 'Terror/Suspense', 'Adulto', 'Anime'];
-  selectedCategory: string | undefined;
+  @Input() category!: Categoria;
+
 }

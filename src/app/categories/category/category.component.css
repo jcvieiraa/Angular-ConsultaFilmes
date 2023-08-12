@@ -1,6 +1,8 @@
-  .category-item {
+.category-item {
     flex: 0 0 calc(33.3333% - 20px);
     text-align: center;
+    display: inline-block;
+    justify-content: center;
   }
   
   .category-item img {
@@ -28,3 +30,4 @@
     background-color: hsl(0, 74%, 43%);
     color: #fff;
   }
+  

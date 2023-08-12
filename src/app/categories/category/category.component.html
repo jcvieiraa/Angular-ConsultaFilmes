@@ -1,4 +1,4 @@
 <figure class="category-item">
-    <img src="/assets/img/action2.png" alt="Categoria">
-    <a [routerLink]="['/acao']">Ação</a>
+    <img [src]="category.img" [alt]="category.title">
+    <a [routerLink]="[category.page]">{{category.title}}</a>
 </figure>
