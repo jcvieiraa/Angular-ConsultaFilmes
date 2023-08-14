@@ -19,6 +19,7 @@
   
   main {
     padding: 20px;
+    min-height: 81vh;
   }
   
   section {

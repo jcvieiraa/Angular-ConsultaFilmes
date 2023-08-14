@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Categoria } from 'src/models/models';
+import { Categoria } from 'src/models/category.models';
 
 @Component({
   selector: 'cin-category',

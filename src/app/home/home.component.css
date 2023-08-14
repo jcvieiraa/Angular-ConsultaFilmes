@@ -1,6 +1,6 @@
 main {
     padding: 20px;
-    height: 78vh;
+    min-height: 81vh;
 }
 
 section {

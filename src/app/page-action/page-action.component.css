@@ -19,7 +19,7 @@
   
   main {
     padding: 20px;
-    height: 78vh;
+    min-height: 81vh;
   }
   
   section {
@@ -78,10 +78,6 @@
     display: block;
     margin-right: 0;
     margin-bottom: 10px;
-  }
-  
-  main {
-    height: auto;
   }
   
   .movies-grid {

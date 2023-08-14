@@ -1,10 +1,18 @@
 <header>
-  <h1>JulioFlix</h1>
-    <nav>
-      <ul>
-        <li><a [routerLink]="['']">Home</a></li>
-        <li><a [routerLink]="['categorias']">Categorias</a></li>
-        <li><a [routerLink]="['sobre']">Sobre</a></li>
-      </ul>
-    </nav>
+
+  <div class="logo-container">
+    <h1>JulioFlix</h1>
+  </div>
+    
+    <div class="item-container">
+      <nav>
+        <ul>
+          <i class="fa-solid fa-bars"></i>
+          <li><a [routerLink]="['']">Página Inicial</a></li>
+          <li><a [routerLink]="['/categorias']">Categorias</a></li>
+          <li><a [routerLink]="['/sobre']">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+
 </header>
