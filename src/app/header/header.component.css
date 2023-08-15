@@ -6,6 +6,11 @@ header {
     align-items: center;
 }
 
+.logo {
+    text-decoration: none;
+    color: white;
+}
+
 .item-container {
     display: flex;
     justify-content: right;
@@ -43,15 +48,15 @@ i {
 }
 
 @media (max-width: 768px) {
+
     i {
         display: block;
         text-align: right;
         font-size: xx-large;
     }
 
-    a {
+    li a {
         display: none;
     }
-
 
 }

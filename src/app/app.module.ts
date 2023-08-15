@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { MovieComponent } from './movie/movie.component';
 import { CategoryComponent } from './categories/category/category.component';
-import { CategoriasService } from './categories/categories.service';
+import { CategoriasService } from './categories/categorias.service';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({

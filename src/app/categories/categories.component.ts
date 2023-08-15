@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Categoria } from 'src/models/category.models';
-import { CategoriasService } from './categories.service';
+import { CategoriasService } from './categorias.service';
 
 @Component({
   selector: 'cin-categories',
@@ -8,12 +8,12 @@ import { CategoriasService } from './categories.service';
   styleUrls: ['./categories.component.css']
 })
 export class CategoriesComponent {
-  categorias!: Categoria[];
+  categories!: Categoria[];
 
   constructor(private service: CategoriasService){}
 
   ngOnInit(){
-    this.service.listarCategorias().subscribe(categorias => this.categorias = categorias);
+    this.service.listarCategorias().subscribe(categories => this.categories = categories);
   }
 
 }
