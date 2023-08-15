@@ -1,0 +1,11 @@
+<main>
+    <section>
+        <h2>Categoria</h2>
+        <div class="movies-grid" *ngFor="let movie of selectedCategoryMovies">
+            <div class="movie">
+                <img [src]="movie.img" alt="movie.name">
+                <h3>{{movie.name}}</h3>
+            </div>
+        </div>
+    </section>
+</main>

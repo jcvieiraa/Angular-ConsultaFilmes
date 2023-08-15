@@ -1,0 +1,28 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "title": "Ação",
+            "img": "/assets/img/action2.png",
+            "page": "/filme"
+        },
+        {
+            "id": 2,
+            "title": "Terror",
+            "img": "/assets/img/horror.png",
+            "page": "/filme"
+        },
+        {
+            "id": 3,
+            "title": "Comédia",
+            "img": "/assets/img/comedy.png",
+            "page": "/filme"
+        },
+        {
+            "id": 4,
+            "title": "Anime",
+            "img": "/assets/img/anime.png",
+            "page": "/filme"
+        }
+    ]
+}
